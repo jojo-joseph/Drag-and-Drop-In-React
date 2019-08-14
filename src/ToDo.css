@@ -1,0 +1,54 @@
+.drag-container {
+  text-align: center;
+}
+
+.head {
+  display: inline-block;
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+.toDo {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  left: 0;
+  top: 10;
+  background-color: #eeeeee;
+  border-right: 2px solid green;
+}
+
+.inProgress {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  left: 525px;
+  top: 10;
+  background-color: #eeeeee;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+}
+
+.done {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  right: 0;
+  top: 10;
+  background-color: #eeeeee;
+  border-left: 2px solid green;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.group-header {
+  font-weight: bold;
+  font-size: 18px;
+}
